@@ -1,0 +1,21 @@
+.imageCard {
+    width: 400px;
+    height: 267px;
+}
+
+.hoverImageScale {
+    display: inline-block;
+    overflow: hidden;
+    /* Скрываем всё за контуром */
+}
+
+.hoverImageScale img {
+    transition: 1s;
+    /* Время эффекта */
+    display: block;
+}
+
+.hoverImageScale img:hover {
+    transform: scale(1.2);
+    /* Увеличиваем масштаб */
+}
